@@ -22,8 +22,8 @@ $(window).load(function () {
         }
         c.attr("min", 0),
             c.attr("max", t),
-            // $("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>'),
-            $("body").append('<script>onYouTubePlayerAPIReady("9AF3K9BpPIc")</script>'),
+            //$("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>'),
+            //$("body").append('<script>onYouTubePlayerAPIReady("9AF3K9BpPIc")</script>'),
             $("button").addClass("buttonCustom1"),
             $(".section").hide(),
             $("div#section01").show(),
@@ -37,8 +37,8 @@ $(window).load(function () {
                     }),
                     $("#goSection001a").click(function () {
                         $("audio").remove(),
-                            // $("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>'),
-                            $("body").append('<script>onYouTubePlayerAPIReady("u_uEt2aoFaI")</script>'),
+                            //$("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>'),
+                            //$("body").append('<script>onYouTubePlayerAPIReady("u_uEt2aoFaI")</script>'),
                             r("div#section001"),
                             o.css({ "background-image": "url(img/gif/001.gif)" }, { "background-position": "center center" }, { "background-repeat": "no-repeat" });
                     }),
@@ -51,9 +51,9 @@ $(window).load(function () {
                             r("div#section101"),
                             o.css({ "background-image": "url(img/gif/101.gif)" }, { "background-position": "center center" }, { "background-repeat": "no-repeat" }),
                             a(t),
-                            $("audio").remove(),
-                            // $("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>');
-                            $("body").append('<script>onYouTubePlayerAPIReady("oTN6cGmH2yM")</script>');
+                            $("audio").remove();//,
+                        //$("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>');
+                        //$("body").append('<script>onYouTubePlayerAPIReady("oTN6cGmH2yM")</script>');
                     }),
                     $("#goSection002").click(function () {
                         r("div#section002"), o.css({ "background-image": "url(img/gif/002.gif)" }, { "background-position": "center center" }, { "background-repeat": "no-repeat" });
@@ -415,9 +415,9 @@ $(window).load(function () {
                         r("div#section101"),
                         o.css({ "background-image": "url(img/gif/101.gif)" }, { "background-position": "center center" }, { "background-repeat": "no-repeat" }),
                         a(t),
-                        $("audio").remove(),
-                        // $("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>'),
-                        $("body").append('<script>onYouTubePlayerAPIReady("oTN6cGmH2yM")</script>'),
+                        //$("audio").remove(),
+                        //$("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>'),
+                        //$("body").append('<script>onYouTubePlayerAPIReady("oTN6cGmH2yM")</script>'),
                         (s = 0),
                         !1
                     );
@@ -438,9 +438,9 @@ $(window).load(function () {
                     return (
                         r("div#sectionKnm"),
                         o.css({ "background-image": "url(img/gif/knm.gif)" }, { "background-position": "center center" }, { "background-repeat": "no-repeat" }),
-                        $("audio").remove(),
-                        // $("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>'),
-                        $("body").append('<script>onYouTubePlayerAPIReady("cWL1Rs2SJ9E")</script>'),
+                        //$("audio").remove(),
+                        //$("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>'),
+                        //$("body").append('<script>onYouTubePlayerAPIReady("cWL1Rs2SJ9E")</script>'),
                         (p = 0),
                         !1
                     );
