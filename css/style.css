@@ -1,0 +1,313 @@
+progress {
+    font-size: .6em;
+    line-height: 1.5em;
+    text-indent: .5em;
+    width: 15em;
+    border: 2px solid #000
+}
+
+@font-face {
+    font-family: Darkwoman;
+    src: url(../font/Darkwoman.otf)
+}
+
+@font-face {
+    font-family: Lazer84;
+    src: url(../font/Lazer84.ttf)
+}
+
+html {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Darkwoman, Helvetica, Arial, sans-serif;
+    color: #fff;
+    background-color: #000
+}
+
+div {
+    text-shadow: 3px 3px 3px #000
+}
+
+.section {
+    font-family: Lazer84, Helvetica, Arial, sans-serif;
+    text-shadow: 3px 3px 3px #000
+}
+
+.buttonCustom1 {
+    -moz-box-shadow: 0 0 8px 0 #f02922;
+    -webkit-box-shadow: 0 0 8px 0 #f02922;
+    box-shadow: 0 0 8px 0 #f02922;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(.05, #000), color-stop(1, #000));
+    background: -moz-linear-gradient(top, #000 5%, #000 100%);
+    background: -webkit-linear-gradient(top, #000 5%, #000 100%);
+    background: -o-linear-gradient(top, #000 5%, #000 100%);
+    background: -ms-linear-gradient(top, #000 5%, #000 100%);
+    background: linear-gradient(to bottom, #000 5%, #000 100%);
+    background-color: #000;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    border: 3px solid #000;
+    display: inline-block;
+    cursor: pointer;
+    color: red;
+    font-size: 16px;
+    padding: 6px 17px;
+    text-decoration: none;
+    font-family: Lazer84, Helvetica, Arial, sans-serif;
+    text-shadow: 1px 1px 1px #fff;
+    margin-top: 30px;
+    margin-left: 4px;
+    margin-right: 4px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.buttonCustom1:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(.05, #000), color-stop(1, #000));
+    background: -moz-linear-gradient(top, #000 5%, #000 100%);
+    background: -webkit-linear-gradient(top, #000 5%, #000 100%);
+    background: -o-linear-gradient(top, #000 5%, #000 100%);
+    background: -ms-linear-gradient(top, #000 5%, #000 100%);
+    background: linear-gradient(to bottom, #000 5%, #000 100%);
+    background-color: #000;
+	color: #b00c00;
+}
+
+.buttonCustom1:active {
+    position: relative;
+    top: 1px
+}
+
+.buttonCustom2 {
+    -moz-box-shadow: 0 0 8px 0 #5663ad;
+    -webkit-box-shadow: 0 0 8px 0 #5663ad;
+    box-shadow: 0 0 8px 0 #5663ad;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(.05, #000), color-stop(1, #000));
+    background: -moz-linear-gradient(top, #000 5%, #000 100%);
+    background: -webkit-linear-gradient(top, #000 5%, #000 100%);
+    background: -o-linear-gradient(top, #000 5%, #000 100%);
+    background: -ms-linear-gradient(top, #000 5%, #000 100%);
+    background: linear-gradient(to bottom, #000 5%, #000 100%);
+    background-color: #000;
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    border: 3px solid #000;
+    display: inline-block;
+    cursor: pointer;
+    color: #e236d7;
+    font-size: 16px;
+    padding: 6px 17px;
+    text-decoration: none;
+    font-family: Lazer84, Helvetica, Arial, sans-serif;
+    text-shadow: 1px 1px 1px #fff;
+    margin-top: 30px;
+    margin-left: 4px;
+    margin-right: 4px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.buttonCustom2:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(.05, #000), color-stop(1, #000));
+    background: -moz-linear-gradient(top, #000 5%, #000 100%);
+    background: -webkit-linear-gradient(top, #000 5%, #000 100%);
+    background: -o-linear-gradient(top, #000 5%, #000 100%);
+    background: -ms-linear-gradient(top, #000 5%, #000 100%);
+    background: linear-gradient(to bottom, #000 5%, #000 100%);
+    background-color: #000;
+	color: #ba3d93;
+}
+
+.buttonCustom2:active {
+    position: relative;
+    top: 1px
+}
+
+footer {
+    margin: 0 0 35px;
+    font-family: Darkwoman, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 3px #000;
+    position: absolute;
+    bottom: 0;
+    text-align: center
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Darkwoman, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 3px #000
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5
+}
+
+@media (min-width:768px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6
+    }
+}
+
+a {
+    color: red;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+a:link {
+    text-decoration: none
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    text-transform: uppercase;
+    font-family: Lazer84, Helvetica, Arial, sans-serif;
+    background-color: #000
+}
+
+.navbar-custom .navbar-toggle {
+    color: red;
+    background-color: rgba(255, 255, 255, .2);
+    font-size: 12px
+}
+
+.navbar-custom .navbar-toggle:active,
+.navbar-custom .navbar-toggle:focus {
+    outline: 0
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0
+}
+
+.navbar-custom a {
+    color: red
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out
+}
+
+.navbar-custom .nav li a:hover {
+    color: rgba(255, 255, 255, .8);
+    outline: 0;
+    background-color: transparent
+}
+
+.navbar-custom .nav li a:active,
+.navbar-custom .nav li a:focus {
+    outline: 0;
+    background-color: transparent
+}
+
+.navbar-custom .nav li.active {
+    outline: 0
+}
+
+.navbar-custom .nav li.active a {
+    color: red
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: red
+}
+
+@media (min-width:768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: none;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out
+    }
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        background: #000;
+        border-bottom: 1px solid rgba(255, 255, 255, .3)
+    }
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/background.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px
+}
+
+@media (min-width:768px) {
+    .intro {
+        height: 100%;
+        padding: 0
+    }
+    .intro .intro-body .brand-heading {
+        font-size: 100px
+    }
+    .intro .intro-body .intro-text {
+        font-size: 26px
+    }
+}
+
+.preloader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-image: url(../img/loading.gif);
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: center
+}
