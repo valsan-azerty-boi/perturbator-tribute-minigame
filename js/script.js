@@ -22,8 +22,7 @@ $(window).load(function () {
         }
         c.attr("min", 0),
             c.attr("max", t),
-            //$("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>'),
-            //$("body").append('<script>onYouTubePlayerAPIReady("9AF3K9BpPIc")</script>'),
+            $("body").append('<iframe width="0" height="0" src="https://www.youtube.com/embed/9AF3K9BpPIc?&autoplay=1" frameborder="0" allow="autoplay"></iframe>'),
             $("button").addClass("buttonCustom1"),
             $(".section").hide(),
             $("div#section01").show(),
@@ -36,9 +35,8 @@ $(window).load(function () {
                         a(t), e.show(), r("div#section02");
                     }),
                     $("#goSection001a").click(function () {
-                        $("audio").remove(),
-                            //$("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>'),
-                            //$("body").append('<script>onYouTubePlayerAPIReady("u_uEt2aoFaI")</script>'),
+                        $("iframe").remove(),
+                            $("body").append('<iframe width="0" height="0" src="https://www.youtube.com/embed/u_uEt2aoFaI?&autoplay=1" frameborder="0" allow="autoplay"></iframe>'),
                             r("div#section001"),
                             o.css({ "background-image": "url(img/gif/001.gif)" }, { "background-position": "center center" }, { "background-repeat": "no-repeat" });
                     }),
@@ -51,9 +49,8 @@ $(window).load(function () {
                             r("div#section101"),
                             o.css({ "background-image": "url(img/gif/101.gif)" }, { "background-position": "center center" }, { "background-repeat": "no-repeat" }),
                             a(t),
-                            $("audio").remove();//,
-                        //$("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>');
-                        //$("body").append('<script>onYouTubePlayerAPIReady("oTN6cGmH2yM")</script>');
+                            $("iframe").remove(),
+                            $("body").append('<iframe width="0" height="0" src="https://www.youtube.com/embed/oTN6cGmH2yM?&autoplay=1" frameborder="0" allow="autoplay"></iframe>');
                     }),
                     $("#goSection002").click(function () {
                         r("div#section002"), o.css({ "background-image": "url(img/gif/002.gif)" }, { "background-position": "center center" }, { "background-repeat": "no-repeat" });
@@ -415,9 +412,8 @@ $(window).load(function () {
                         r("div#section101"),
                         o.css({ "background-image": "url(img/gif/101.gif)" }, { "background-position": "center center" }, { "background-repeat": "no-repeat" }),
                         a(t),
-                        //$("audio").remove(),
-                        //$("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>'),
-                        //$("body").append('<script>onYouTubePlayerAPIReady("oTN6cGmH2yM")</script>'),
+                        $("iframe").remove(),
+                        $("body").append('<iframe width="0" height="0" src="https://www.youtube.com/embed/oTN6cGmH2yM?&autoplay=1" frameborder="0" allow="autoplay"></iframe>'),
                         (s = 0),
                         !1
                     );
@@ -438,9 +434,8 @@ $(window).load(function () {
                     return (
                         r("div#sectionKnm"),
                         o.css({ "background-image": "url(img/gif/knm.gif)" }, { "background-position": "center center" }, { "background-repeat": "no-repeat" }),
-                        //$("audio").remove(),
-                        //$("body").append('<audio src="#" type="audio/mp3" volume="0.3" autoplay></audio>'),
-                        //$("body").append('<script>onYouTubePlayerAPIReady("cWL1Rs2SJ9E")</script>'),
+                        $("iframe").remove(),
+                        $("body").append('<iframe width="0" height="0" src="https://www.youtube.com/embed/cWL1Rs2SJ9E?&autoplay=1" frameborder="0" allow="autoplay"></iframe>'),
                         (p = 0),
                         !1
                     );
